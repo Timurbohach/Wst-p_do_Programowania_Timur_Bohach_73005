@@ -5,4 +5,6 @@ spaliwo = a * (b/ 100)
 cena = 6,5 * spaliwo
 
 
-print(spaliwo, cena)
+print(spaliwo)
+
+print(cena)
