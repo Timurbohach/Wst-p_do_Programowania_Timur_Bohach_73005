@@ -14,9 +14,8 @@ lb_w = int(input("Podaj liczba lub wierszy: "))
 
 #C_______________________________________________________________________
 
-for i in range(lb_w):
-    for j in range(lb_w-(lb_w-(i+1))):
-        print('*',  end=' ')
-    print('')
-    for j in range(lb_w+1):
-        print('*',  end=' ')
+
+
+for i in range(1, lb_w + 1):
+    print(" " * (lb_w - i) + " ".join(["*"] * i))
+
